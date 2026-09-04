@@ -1,0 +1,84 @@
+<! DOCTYPE html>
+<html>
+<head>
+<title>TABLE:))</title>
+</head>
+<li> <a href="TLE.html">Back</a>
+<style>
+    table, th, td {
+    border:2px solid black;
+    border-collapse:COLLAPSE;
+    }
+    th, td{
+        padding: 15px;
+    }
+    th{
+    text-align:center;
+    border: 5px solid black;
+    }
+</style>
+<body >
+    <h1 style= "text-align: center;">HYPERTEXT MARKUP LANGUAGE (HTML) TABLE</h1>
+    <h2>An HTML TABLE is crwated using the (table)tag, which arranges structure data into rows and columns.</h2>
+    <h3>CORE HTML TABLE TAGS:</h3>
+    <ol>
+        <li>table: Enclose the entire table data structure</li>
+        <li>tr : Defines a single horizontal TABLE ROW</li>
+        <li>th : Sets a TABLE HEADER(th) cell. </li>
+        <li>td : Specifies a standard TABLE DATA(td) </li>
+    </ol>
+    <h3>SEMATIC STRUCTURAL ELEMENTS</h3>
+    <h4>For larger or complex datasets, use semantic tags to group your structural sections:</h4>
+    <ol>
+        <li> caption : Places a descriptive title directly above the table layout.</li>
+        <li>thead : Wraps the master header rows of your dataset.</li>
+        <li>tbody : Groups the primary body content containing data rows.</li>
+        <li> tfoot : Encloses summary or total rows at the bottom</li>
+    </ol>
+    <h3>SPANNING LAYOUT ATTRIBUTES</h3>
+    <OL>
+        <li>colspan: Streches a data cell horizontally across multiple columns</li>
+        <li>rowspan: Extends a single cell vertically down across multiple rows</li>
+      </OL>
+    <table style="width:100%">
+    <tr bgcolor="lightblue">
+        <th width="333.333">HEALTH RISKS OF WORKING AT THE COMPUTER</th>
+        <th width="333.333">ECONOMIC TIPS FOR COMPUTER USERS</th>
+        <th width="333.333">SIGNS OF POOR ERGONOMICS</th>
+        
+    </tr>
+    <tr align="center">
+         <td>Musculoskeletal Problems</td>
+        <td>Proper Sitting Posture</td>
+        <td>Back Pain</td>
+        </tr>
+        <tr align="center">
+            <td>Repetitive Strain Injury (RSI) </td>
+            <td>Correct Monitor Placement</td>
+            <td>Neck Stiffness</td>
+        <tr align="center">
+        <td>Computer Vision Syndrom (CVS) </td>
+        <td>Proper Keyboard & Mouse Position</td>
+        <td>Eye discomfort</td>
+        <tr align="center">
+        <td>Mental Fatigue and Stress</td>
+        <td>Stretching Exercises</td>
+        <td>Wrist pain</td>
+        <tr align="center">
+        <td>Sedentary Lifestyle Risks</td>
+        <td>Taking breaks</td>
+        <td>Headaches</td>
+        <tr align="center">
+        <td>Long-Term Health Risks</td>
+        <td>Healthy Computer Habits</td>
+        <td>Fatigue</td>
+                 
+    </tr>
+    
+    
+    
+    
+    
+    </table>
+</body>
+</html>
